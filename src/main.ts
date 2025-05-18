@@ -1,6 +1,9 @@
-import { createApp } from "vue";
-import App from "./App.vue";
-createApp(App).mount("#app");
+import { createApp } from 'vue'
+import App from './App.vue'
+createApp(App).mount('#app')
 
 // 验证eslint
-const a = 1;
+for(let i = 0;i<100;i++)
+    {
+       console.log(i);
+    }
